@@ -1,0 +1,260 @@
+-- Made By Mark0v_Bot
+-- Instances:
+
+local InsertedObjects = Instance.new("ScreenGui")
+local LoginFrame = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local shadowHolder = Instance.new("Frame")
+local KeyHere = Instance.new("TextBox")
+local TextBox_Roundify_12px = Instance.new("ImageLabel")
+local KeyLoginWelcome = Instance.new("TextLabel")
+local Login = Instance.new("TextButton")
+local Shadow = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Discord = Instance.new("TextLabel")
+local FNF = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local Welcome = Instance.new("TextLabel")
+local TextLabel_Roundify_12px = Instance.new("ImageLabel")
+local Execute = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Shadow_2 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local Tip = Instance.new("TextLabel")
+
+--Properties:
+
+InsertedObjects.Name = "InsertedObjects"
+InsertedObjects.Parent = game.CoreGui
+
+LoginFrame.Name = "LoginFrame"
+LoginFrame.Parent = InsertedObjects
+LoginFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LoginFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+LoginFrame.BorderSizePixel = 0
+LoginFrame.Position = UDim2.new(0.279744327, 0, 0.326124996, 0)
+LoginFrame.Size = UDim2.new(0, 835, 0, 392)
+LoginFrame.Active = true
+LoginFrame.Draggable = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(182, 141, 159)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(64, 96, 161))}
+UIGradient.Parent = LoginFrame
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = LoginFrame
+
+shadowHolder.Name = "shadowHolder"
+shadowHolder.Parent = LoginFrame
+shadowHolder.BackgroundTransparency = 1.000
+shadowHolder.Size = UDim2.new(1, 0, 1, 0)
+
+KeyHere.Name = "KeyHere"
+KeyHere.Parent = LoginFrame
+KeyHere.BackgroundColor3 = Color3.fromRGB(194, 143, 255)
+KeyHere.BackgroundTransparency = 1.000
+KeyHere.BorderSizePixel = 0
+KeyHere.Position = UDim2.new(0.33652696, 0, 0.265306115, 0)
+KeyHere.Size = UDim2.new(0, 273, 0, 86)
+KeyHere.ZIndex = 2
+KeyHere.Font = Enum.Font.PatrickHand
+KeyHere.Text = "Enter Key Here"
+KeyHere.TextColor3 = Color3.fromRGB(0, 0, 0)
+KeyHere.TextScaled = true
+KeyHere.TextSize = 14.000
+KeyHere.TextWrapped = true
+
+
+TextBox_Roundify_12px.Name = "TextBox_Roundify_12px"
+TextBox_Roundify_12px.Parent = KeyHere
+TextBox_Roundify_12px.Active = true
+TextBox_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_12px.BackgroundTransparency = 1.000
+TextBox_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextBox_Roundify_12px.Selectable = true
+TextBox_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextBox_Roundify_12px.Image = "rbxassetid://3570695787"
+TextBox_Roundify_12px.ImageColor3 = Color3.fromRGB(194, 143, 255)
+TextBox_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextBox_Roundify_12px.SliceScale = 0.120
+
+KeyLoginWelcome.Name = "KeyLoginWelcome"
+KeyLoginWelcome.Parent = LoginFrame
+KeyLoginWelcome.BackgroundColor3 = Color3.fromRGB(163, 120, 255)
+KeyLoginWelcome.BackgroundTransparency = 1.000
+KeyLoginWelcome.BorderColor3 = Color3.fromRGB(192, 140, 255)
+KeyLoginWelcome.Position = UDim2.new(0.00598802418, 0, 0.0178571418, 0)
+KeyLoginWelcome.Size = UDim2.new(0, 822, 0, 42)
+KeyLoginWelcome.Font = Enum.Font.PatrickHand
+KeyLoginWelcome.Text = "Key Login"
+KeyLoginWelcome.TextColor3 = Color3.fromRGB(0, 0, 0)
+KeyLoginWelcome.TextScaled = true
+KeyLoginWelcome.TextSize = 14.000
+KeyLoginWelcome.TextWrapped = true
+
+Login.Name = "Login"
+Login.Parent = LoginFrame
+Login.BackgroundColor3 = Color3.fromRGB(204, 131, 255)
+Login.BorderSizePixel = 0
+Login.Position = UDim2.new(0.391467094, 0, 0.635612607, 0)
+Login.Size = UDim2.new(0, 180, 0, 45)
+Login.ZIndex = 2
+Login.Font = Enum.Font.GothamSemibold
+Login.Text = ""
+Login.TextColor3 = Color3.fromRGB(255, 255, 255)
+Login.TextScaled = true
+Login.TextSize = 14.000
+Login.TextWrapped = true
+Login.MouseButton1Down:connect(function()
+	if KeyHere.Text == "XEdrctvyBUIomikOPl" then
+		LoginFrame.Visible = false
+		FNF.Visible = true
+	end
+end)
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Login
+Shadow.BackgroundColor3 = Color3.fromRGB(175, 105, 255)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel.Parent = Login
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel.Size = UDim2.new(1, -20, 1, -20)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.PatrickHand
+TextLabel.Text = "Login"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Discord.Name = "Discord"
+Discord.Parent = LoginFrame
+Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Discord.BackgroundTransparency = 1.000
+Discord.Position = UDim2.new(0.0215568841, 0, 0.760612667, 0)
+Discord.Size = UDim2.new(0, 250, 0, 89)
+Discord.Font = Enum.Font.PatrickHand
+Discord.Text = "To get key Enter Discord: https://discord.gg/2vQfbE4KPW"
+Discord.TextColor3 = Color3.fromRGB(0, 0, 0)
+Discord.TextScaled = true
+Discord.TextSize = 14.000
+Discord.TextWrapped = true
+
+FNF.Name = "FNF"
+FNF.Parent = InsertedObjects
+FNF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FNF.BorderColor3 = Color3.fromRGB(27, 42, 53)
+FNF.BorderSizePixel = 0
+FNF.Position = UDim2.new(0.297744334, 0, 0.327151686, 0)
+FNF.Size = UDim2.new(0, 707, 0, 336)
+FNF.Visible = false
+FNF.Active = true
+FNF.Draggable = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(182, 141, 159)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(64, 96, 161))}
+UIGradient_2.Parent = FNF
+
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = FNF
+
+Welcome.Name = "Welcome"
+Welcome.Parent = FNF
+Welcome.BackgroundColor3 = Color3.fromRGB(198, 140, 255)
+Welcome.BackgroundTransparency = 1.000
+Welcome.BorderSizePixel = 0
+Welcome.Position = UDim2.new(-0.00141441822, 0, 0, 0)
+Welcome.Size = UDim2.new(0, 707, 0, 61)
+Welcome.ZIndex = 2
+Welcome.Font = Enum.Font.PatrickHand
+Welcome.Text = "FNF Script"
+Welcome.TextColor3 = Color3.fromRGB(0, 0, 0)
+Welcome.TextScaled = true
+Welcome.TextSize = 14.000
+Welcome.TextWrapped = true
+
+TextLabel_Roundify_12px.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px.Parent = Welcome
+TextLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(161, 130, 255)
+TextLabel_Roundify_12px.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px.Visible = false
+TextLabel_Roundify_12px.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px.ImageColor3 = Color3.fromRGB(196, 144, 255)
+TextLabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px.SliceScale = 0.120
+
+Execute.Name = "Execute"
+Execute.Parent = FNF
+Execute.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Execute.BorderSizePixel = 0
+Execute.Position = UDim2.new(0.371994346, 0, 0.59523809, 0)
+Execute.Size = UDim2.new(0, 180, 0, 45)
+Execute.ZIndex = 2
+Execute.Font = Enum.Font.GothamSemibold
+Execute.Text = ""
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextScaled = true
+Execute.TextSize = 14.000
+Execute.TextWrapped = true
+Execute.MouseButton1Down:connect(function()
+	_G.Enabled = true
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skribb11es/Random-Releases/main/BasicallyFNFAutoPlay", true))()
+end)
+Execute.MouseButton1Down:connect(function()
+	if Execute.MouseButton1Down then
+		FNF.Visible = false
+	end
+end)
+
+
+
+UICorner_3.Parent = Execute
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = Execute
+Shadow_2.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_2.BorderSizePixel = 0
+Shadow_2.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_4.Parent = Shadow_2
+
+TextLabel_2.Parent = Execute
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.5, 0, 0.544444561, 0)
+TextLabel_2.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_2.ZIndex = 2
+TextLabel_2.Font = Enum.Font.PatrickHand
+TextLabel_2.Text = "Execute"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Tip.Name = "Tip"
+Tip.Parent = FNF
+Tip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tip.BackgroundTransparency = 1.000
+Tip.Position = UDim2.new(0.0792079195, 0, 0.821428597, 0)
+Tip.Size = UDim2.new(0, 200, 0, 50)
+Tip.Font = Enum.Font.PermanentMarker
+Tip.Text = "To Run The Script, Press G After you Click Execute. :)"
+Tip.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tip.TextSize = 14.000
